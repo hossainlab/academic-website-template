@@ -1,0 +1,65 @@
+---
+title: "Teaching"
+subtitle: "I teach."
+title-block-banner: false
+---
+
+
+## Class 1
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](image.jpg)
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
+
+Class 1 introduction.
+
+:::
+
+:::
+
+
+## Class 2
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](image.jpg)
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
+
+Class 2 introduction.
+
+:::
+
+:::
+
+
+## Class 3
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](image.jpg)
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
+
+Class 3 introduction. 
+
+:::
+
+:::
