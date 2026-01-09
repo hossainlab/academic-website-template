@@ -1,0 +1,39 @@
+---
+title: "Author"
+image: img/profile.png
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: envelope
+      href: mailto:email@gmail.com   
+    - icon: twitter
+      href: https://x.com/username
+      target: _blank
+    - icon: linkedin
+      href: https://linkedin.com/in/username
+      target: _blank
+    - icon: github
+      href: https://github.com/username
+      target: _blank
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-9323-4997
+      target: _blank
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/
+      target: _blank
+    
+---
+
+::: {#hero-heading}
+
+Hello, I am *Author*.
+
+Feel free to edit the text and layout to make this website your own!
+
+This is a template with `side navigation`. Read more about website navigation [here](https://quarto.org/docs/websites/website-navigation.html).
+
+In this template you can find examples of using `listing` (grid, table, default) in **Projects, Talks, Blog**. Read more about lists [here](https://quarto.org/docs/websites/website-listings.html).
+
+:::

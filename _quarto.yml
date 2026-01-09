@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Mr. Jon Doe"
+  image: "img/profile.png"
+  favicon: "img/favicon.png"
+  description: "Academic Website for Mr. John Doe"
+
+  page-footer:
+    left: "&copy; Copyright 2026, Author"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  sidebar:
+    pinned: true
+    align: center
+    style: "docked"
+    collapse-level: 1
+    search: false
+    contents:
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Publication"
+        href: publications/index.qmd
+      - text: "Talks"
+        href: talks/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd 
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
